@@ -4,7 +4,7 @@ sudo clean.bat uac
 exit
 :main
 del /f /s /q %localappdata%\CrashDumps\*
-del /f /s /q C:\Windows\System32\config\systemprofile\AppData\Local\CrashDumps\*
+del /f /s /q %windir%\System32\config\systemprofile\AppData\Local\CrashDumps\*
 del /f /s /q %windir%\SoftwareDistribution\Download\*
 rem del /f /s /q %temp%\*
 del /f /s /q %temp%\vscode-stable-user-x64
